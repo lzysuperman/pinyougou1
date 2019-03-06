@@ -1,0 +1,12 @@
+body div {
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transform: translateX(50px);
+          transform: translateX(50px);
+}
+
+/*# sourceMappingURL=index.css.map */
