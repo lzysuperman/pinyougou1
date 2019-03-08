@@ -1,11 +1,12 @@
 const gulp = require("gulp");
 const babel = require("gulp-babel");
 const less = require("gulp-less");
-// 1 引入包
+const fileInclude = require("gulp-file-include");
+// 1 引入添加指纹的 插件
 const rev = require("gulp-rev");
-// 1 引入包
-
+// 1 引入 修改html文件中的静态资源的插件
 const revCollector = require("gulp-rev-collector");
+
 
 // 2 处理less
 gulp.task("css", () => {
