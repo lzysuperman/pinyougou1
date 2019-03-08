@@ -11,4 +11,3 @@ window.onload = function () {
     console.log(p1);
   }
 };
-//# sourceMappingURL=index.js.map
